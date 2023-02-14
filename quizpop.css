@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    /* position: relative; */
+
+}
+.main1 a,.main2 .main3 a,form .anchor .anc,form .anchor .sub,.radio .radio1,.radio .red{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding:10px;
+    color:#FFF;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+    background-color: aqua;
+}
+.main2 .main4 {
+    width:50%;
+}
+.main2 .main4 img{
+    width:70%;
+    border-radius: 10%;
+}
+.main2 .main3{
+    font-size: 30px;
+}
+.main2 .main3 a{
+    margin:20px;
+    display: inline-block;
+}
+.main2 .main3 a i{
+    padding-left: 0.5rem;
+}
+.main2 .main3 a:hover i{
+    padding-left:1rem;
+    transition: all 1s ease;
+}
+.main2 .main3 h1 span{
+    color:red;
+}
+.main1 form{
+    position: absolute;
+    top:12rem;
+    background-color: rgb(235, 132, 149);
+    padding:20px;
+    font-size: 20px;
+    display: none;
+}
+.radio{
+    margin:20px 0;
+}
+.main1 form input{
+    height:50px;
+    width:400px;
+    margin:40px;
+}
+.ram{
+    background-color: rgb(174, 170, 170);
+    display: none;
+    height:700px;
+}
+.ram .quiz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: lightsteelblue;
+}
+.ram .quiz ul{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+.ram .quiz ul li a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+
+}
+.ram .welcome{
+    padding:2rem;
+}
+.ram .welcome h1,h2{
+    text-align: center;
+    padding:1rem;
+    
+}
+.music ul{
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.music ul li{
+    position: relative;
+}
+.music ul li a:hover{
+    border:3px solid green;
+}
+.music ul li a{
+    
+    font-size: 20px;
+    color:#FFf;
+    margin:0.5rem;
+    padding:1rem 5rem;
+    text-decoration: none;
+    
+}
+.music ul li a:hover i{
+    background-color: green;
+    padding:10px;
+    border-radius: 50%;
+    position: absolute;
+    top:-10px;
+    left:34rem;
+    transition: all 0.5s ease;
+}
+.music ul li:first-of-type a {
+    background-color: rgb(76, 76, 161);
+    display: inline-block;
+}
+.music ul li:nth-of-type(2) a{
+    background-color: darkblue;
+    display: inline-block;
+  
+}
+.music ul li:nth-of-type(3) a{
+    background-color: yellow;
+    display: inline-block;
+}
+.music ul li:last-of-type a{
+    background-color: black;
+    display: inline-block;
+    padding:1rem 4rem;
+    
+}
+
+.coding{
+    background-color: orange;
+    padding: 8rem 20rem;
+    font-size: 20px;
+    display: none;
+
+    
+}
+.coding .coding1 .code{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.coding .coding1 .php,.php2,.php3{
+    background-color: #FFF;
+    padding:20px;
+}
+.coding .coding1 .php input{
+    padding:1rem 0;
+}
+.coding .coding1 .php a,.php2 a,.php3 a{
+    text-decoration: none;
+    color:#FFF;
+    background-color: black;
+    padding:10px;
+    margin:1rem 0;
+    display: inline-block;
+}
+.php2,.php3{
+    display: none;
+}
+
+
+
+
